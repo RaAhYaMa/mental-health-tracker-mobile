@@ -114,7 +114,7 @@ class InfoCard extends StatelessWidget {
         // Mengatur ukuran dan jarak di dalam kartu.
         width: MediaQuery.of(context).size.width /
             3.5, // menyesuaikan dengan lebar device yang digunakan.
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(10.0),
         // Menyusun title dan content secara vertikal.
         child: Column(
           children: [
