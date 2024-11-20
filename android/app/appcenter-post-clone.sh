@@ -22,8 +22,8 @@ echo "$KEY_JKS" | base64 --decode > release-keystore.jks
 
 # build APK
 # if you get "Execution failed for task ':app:lintVitalRelease'." error, uncomment next two lines
-# flutter build apk --debug
-# flutter build apk --profile
+flutter build apk --debug
+flutter build apk --profile
 flutter build apk --release
 
 # copy the APK where AppCenter will find it
